@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const EMPLOYEE_API_BASE_URL = "/api/v1/employees";
+const EMPLOYEE_API_BASE_URL = "https://murmuring-lake-94113.herokuapp.com/api/bootcamp";
 
 class EmployeeService {
   getEmployees() {
