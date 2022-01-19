@@ -9,7 +9,7 @@ export default class ListEmployees extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      employees: [""],
+      employees: [ ],
     };
   }
   // addEmployee=()=>{
