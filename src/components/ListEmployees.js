@@ -56,8 +56,8 @@ export default class ListEmployees extends Component {
               </tr>
               <tbody>
                 {this.state.employees.map((karem) => (
-                  <tr key={karem.id}>
-                    <td>{karem.id}</td>
+                  <tr key={karem.bootcampId}>
+                    <td>{karem.bootcampId}</td>
                     <td>{karem.location}</td>
                   </tr>
                 ))}
