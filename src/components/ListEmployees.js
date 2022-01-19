@@ -33,13 +33,6 @@ export default class ListEmployees extends Component {
   }
 
   render() {
-    const firstMap = (
-      <tbody>
-        {this.state.employees.map((karem) => (
-          <tr key={karem.id}></tr>
-        ))}
-      </tbody>
-    );
     return (
       <div>
         <h2 className="text-center">Employees List</h2>
@@ -65,7 +58,7 @@ export default class ListEmployees extends Component {
                 {this.state.employees.map((karem) => (
                   <tr key={karem.id}>
                     <td>{karem.id}</td>
-                    <td>{karem.firstName}</td>
+                    <td>{karem.location}</td>
                   </tr>
                 ))}
               </tbody>
