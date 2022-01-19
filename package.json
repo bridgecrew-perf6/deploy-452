@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "proxy": "https://murmuring-lake-94113.herokuapp.com"
+  "proxy": "https://murmuring-lake-94113.herokuapp.com",
   "private": true,
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.17",
