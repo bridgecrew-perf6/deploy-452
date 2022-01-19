@@ -33,6 +33,8 @@ export default class ListEmployees extends Component {
   }
 
   render() {
+        console.log(this.state.employees);
+
     return (
       <div>
         <h2 className="text-center">Employees List</h2>
